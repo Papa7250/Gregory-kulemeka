@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>For the Family</title>
+  <style type="text/css">
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+    * {
+      box-sizing: border-box;
+    }
+    html, body {
+      margin: 0;
+      padding: 0;
+    }
+    .nav-bar a {
+      text-decoration: none;
+      color: black;
+      display: block;
+    }
+    .nav-bar > ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+    .nav-bar > ul > li > a {
+      padding: 10px;
+      background: lightgrey;
+    }
+    .nav-bar > ul > li > a:hover {
+      background: #173459;
+      color: #f8f9f9;
+    }
+    .nav-bar .active {
+      background: #173459;
+      color: #f8f9f9;
+    }
+    .nav-bar > ul > li {
+      float: left;
+      width: 25%; /* 100% / 4 (number of li elements) = 25% */
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="nav-bar">
+    <ul>
+      <li><a href="contact.html" class="active"> contact </a></li>
+      <li><a href="services.html"> Services</a></li>
+      <li><a href="About.html"> About </a></li>
+      <li><a href="Home.html"> Home </a></li>
+      
+  <h1 style="text-align: center"> Image Gallery </h1>
+  <div class="gallery">
+  
+    <div class="image-container" id="container1">
+      <a href="#image1"><img src="images/cup.png" /></a>
+      <p class="image-description"> This is about love of picture in other ways you are in picture world</p>
+    </div>
+    
+  <div class="lightbox" id="image1">
+    <a href="#" class="close"></a>
+    <div class="lightbox-content">
+      <img src="images/Background .png" />
+    </div>
+  </div>
+  
+      
+    </ul>
+    
+  </div>
+</body>
+</html><
